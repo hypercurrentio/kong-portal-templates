@@ -19,7 +19,7 @@ $ portal deploy default
 ```
 
 ## Configuration
-### CLI CONF
+### Cli Conf
 Update the Kong Admin URL with your information
 
 Path: `workspaces/<workspace-name>/cli.conf.yaml`
