@@ -87,6 +87,15 @@ Import these files inside of your html file
 
 > In the example we are sending email prop from kong to the react component
 
+> You can edit this value also in editor that Kong provides you
+
+### Deployment
+
+For deploy your code only need to use the next command
+
+```bash
+$ portal deploy default
+```
 
 
 
