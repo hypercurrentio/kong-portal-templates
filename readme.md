@@ -33,18 +33,18 @@ You will see an structure like the next one:
 
 `/*:` the path that you can use for calling from the browser
 
-`content/index.txt:` The configuration file that is necessary for refering to the HTML file and passing props from Kong to HTML
+`content/index.txt:` The configuration file, inside of this you can vinculate an HTML file and the props that you are sending from Kong to HTML
 
 ### Content
-You can set some props to these files and using in your HTML file
+You can set props here and using in your HTML file
 
 Path: `workspaces/<workspace-name>/content`
 
 ```
-In the example above we are using index.txt, we can take a look of the structure of these file
+In the example above we are using index.txt, we can take a look of the structure of this file
 
 ---
-layout: homepage.html *The html file (You can find this file inside of workspaces/<workspace-name>/layouts)*
+layout: homepage.html *HTML File* (You can find this file inside of workspaces/<workspace-name>/layouts)
 
 title: Home *Prop* (For using this prop inside of your html you need to use {{page.title}})
 
